@@ -39,7 +39,7 @@ pub async fn fetch_stats(username: &str) -> Result<Stats, String> {
                         totalRepositoriesWithContributedCommits
                     }
                     followers { totalCount }
-                    repositories(first: 100, ownerAffiliations: OWNER) {
+                    repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
                         totalCount
                         nodes {
                             name
