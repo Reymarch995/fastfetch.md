@@ -92,7 +92,7 @@ pub async fn fetch_stats(username: &str) -> Result<Stats, String> {
     Ok(Stats { commits, repos, stars, top_languages, contributed, followers, loc_add, loc_del })
 }
 
-/// Agregasi ukuran bahasa dari semua repo, ambil 5 teratas (urut terbesar).
+/// Agregasi ukuran bahasa dari semua repo, ambil 3 teratas (urut terbesar).
 fn aggregate_top_languages(repos: &[RepoNode]) -> String {
     let mut lang_totals: HashMap<String, u64> = HashMap::new();
     for repo in repos {
@@ -104,7 +104,7 @@ fn aggregate_top_languages(repos: &[RepoNode]) -> String {
     let mut lang_vec: Vec<(String, u64)> = lang_totals.into_iter().collect();
     lang_vec.sort_by(|a, b| b.1.cmp(&a.1));
 
-    lang_vec.into_iter().take(5).map(|(name, _)| name).collect::<Vec<_>>().join(", ")
+    lang_vec.into_iter().take(3).map(|(name, _)| name).collect::<Vec<_>>().join(", ")
 }
 
 /// Hitung total additions & deletions untuk 1 repo, khusus commit dari `username`.
