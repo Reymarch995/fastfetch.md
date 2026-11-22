@@ -5,19 +5,19 @@ os     = "CachyOS x86_64"
 uptime = "-"
 host   = "Singapore Polytechnic"
 kernel = "Diploma in Computer Engineering"
-ide    = "-"
+ide    = "VS Code"
 
 [languages]
 secondary = "-"
 native    = "-"
 
 [skills]
-softskill = "Product, Ed-tech, Startups"
-hardskill = "Linux tuning, Raspberry Pi/Arduino, LLM tooling"
+softskill = "HTML, CSS, JS, Node.js, Python, C/C++"
+hardskill = "Linux, Raspberry Pi, Arduino"
 
 [contact]
 linkedIn = "mhdrayhan"
-discord  = "-"
+discord  = "purified_reymarch"
 
 [contact.email]
 personal  = "reymarchinc@gmail.com"
