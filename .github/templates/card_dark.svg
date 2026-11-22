@@ -992,7 +992,7 @@
                 font-family="JetBrains Mono"
                 font-size="18"
                 letter-spacing="0em"
-              ><tspan x="823.285" y="611.98">1.05M++</tspan></text>
+              ><tspan x="823.285" y="611.98">{{loc_add}}++</tspan></text>
 </g>
 <text
               id="Option_24"
@@ -1002,7 +1002,7 @@
               font-family="JetBrains Mono"
               font-size="18"
               letter-spacing="0em"
-            ><tspan x="973.182" y="611.98">657.66k--</tspan></text>
+            ><tspan x="973.182" y="611.98">{{loc_del}}--</tspan></text>
 <text
               id="Option_25"
               fill="#FFBD83"
