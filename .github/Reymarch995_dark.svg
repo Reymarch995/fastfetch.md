@@ -181,7 +181,7 @@
           font-size="18"
           letter-spacing="0em"
           text-anchor="end"
-        ><tspan x="1105" y="83.98">3 years, 3 months, 21 days</tspan></text>
+        ><tspan x="1105" y="83.98">3 years, 3 months, 22 days</tspan></text>
 </g>
 <g id="Host" class="reveal" style="animation-delay:0.135s">
 <g id="Option_3">
@@ -362,7 +362,7 @@
           font-size="18"
           letter-spacing="0em"
           text-anchor="end"
-        ><tspan x="1105" y="203.98">JavaScript, HTML, CSS</tspan></text>
+        ><tspan x="1105" y="203.98">HTML, Jupyter Notebook, Python</tspan></text>
 </g>
 <g transform="translate(0,-48)">
 <g id="Skills.Software" class="reveal" style="animation-delay:0.405s">
@@ -733,7 +733,7 @@
                 font-size="18"
                 letter-spacing="0em"
                 text-anchor="end"
-              ><tspan x="560.621" y="563.98">12</tspan></text>
+              ><tspan x="560.621" y="563.98">5</tspan></text>
 </g>
 <g id="Contributed">
 <g id="Value_16">
@@ -816,7 +816,7 @@
               font-size="18"
               letter-spacing="0em"
               text-anchor="end"
-            ><tspan x="783.207" y="587.98">168</tspan></text>
+            ><tspan x="783.207" y="587.98">165</tspan></text>
 </g>
 <g id="LOC">
 <g id="Option_17">
@@ -862,7 +862,7 @@
               font-size="18"
               letter-spacing="0em"
               text-anchor="end"
-            ><tspan x="783.207" y="611.98">37.68k</tspan></text>
+            ><tspan x="783.207" y="611.98">23.32k</tspan></text>
 </g>
 </g>
 <g id="Mid">
@@ -992,7 +992,7 @@
                 font-family="JetBrains Mono"
                 font-size="18"
                 letter-spacing="0em"
-              ><tspan x="823.285" y="611.98">38.78k++</tspan></text>
+              ><tspan x="823.285" y="611.98">24.29k++</tspan></text>
 </g>
 <text
               id="Option_24"
@@ -1002,7 +1002,7 @@
               font-family="JetBrains Mono"
               font-size="18"
               letter-spacing="0em"
-            ><tspan x="973.182" y="611.98">1.09k--</tspan></text>
+            ><tspan x="973.182" y="611.98">972--</tspan></text>
 <text
               id="Option_25"
               fill="#FFBD83"
